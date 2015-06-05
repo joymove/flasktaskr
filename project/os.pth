@@ -1,0 +1,8 @@
+import os
+
+
+dir = os.path.dirname(__file__)
+basedir = os.path.abspath(dir)
+print __file__
+print dir
+print basedir
