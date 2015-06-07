@@ -11,4 +11,4 @@ with sqlite3.connect(DATABASE_PATH) as connection:
 
     # insert dummy data into the table
     c.execute('INSERT INTO tasks (name, due_date, priority, status) VALUES("Finish this turtorial", "03/25/2015", 10, 1)')
-    c.execute('INSERT INTO tasks (name, due_date, priority, status) VALUES("Finish Real Python Course 2", "03/25/2015", 10, 1)')
+    c.execute('INSERT INTO tasks (name, due_date, priority, status) VALUES("Finish Real Python Course 2", "03/25/2015", 10, 0)')
